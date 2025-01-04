@@ -1,0 +1,30 @@
+PS C:\Users\owara> cd C:\Users\owara\OneDrive\デスクトップ\kadai
+PS C:\Users\owara\OneDrive\デスクトップ\kadai> mkdir git_challenge
+
+
+    ディレクトリ: C:\Users\owara\OneDrive\デスクトップ\kadai
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        2025/01/05      1:49                git_challenge   
+
+
+PS C:\Users\owara\OneDrive\デスクトップ\kadai> cd git_challenge
+PS C:\Users\owara\OneDrive\デスクトップ\kadai\git_challenge> git init
+Initialized empty Git repository in C:/Users/owara/OneDrive/デスク
+トップ/kadai/git_challenge/.git/
+PS C:\Users\owara\OneDrive\デスクトップ\kadai\git_challenge> git add hello_world.txt
+PS C:\Users\owara\OneDrive\デスクトップ\kadai\git_challenge> git commit -m "最初のファイル"
+[main (root-commit) cea96c1] 最初のファイル
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 hello_world.txt
+PS C:\Users\owara\OneDrive\デスクトップ\kadai\git_challenge> git add hello_world.txt
+PS C:\Users\owara\OneDrive\デスクトップ\kadai\git_challenge> git commit -m "Hello,world!を追加"       
+[main 9826ecb] Hello,world!を追加
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+PS C:\Users\owara\OneDrive\デスクトップ\kadai\git_challenge> git add hello_world.txt
+PS C:\Users\owara\OneDrive\デスクトップ\kadai\git_challenge> git commit -m "日本語訳を追記" 
+[main 0477e50] 日本語訳を追記
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+PS C:\Users\owara\OneDrive\デスクトップ\kadai\git_challenge> git log --oneline
